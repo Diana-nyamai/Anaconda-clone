@@ -3,3 +3,59 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+
+
+li, a, button{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.logo span{
+    font-weight:900;
+    font-size: 30px;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+.dropdown-content li a{
+    position: absolute;
+}
+button{
+    padding: 1.0em 1.5em;
+    background:#0b2227;
+    color: white;
+    text-transform: capitalize;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    border: none;
+    cursor: pointer;
+    border-radius: 25em;
+    transition: all .2s;
+    font-size: .85em;
+}
+button:hover{
+    background: #005a87;
+}
+.cta{
+    margin-left: 100px;
+}
